@@ -10,7 +10,7 @@ My Expo project startup example with TypeScript & Bun.
 bun install
 ```
 
-## Launch
+### Launch
 
 ```shell
 bun run start
