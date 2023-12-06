@@ -1,26 +1,32 @@
 {
   "expo": {
-    "name": "hello-expo",
-    "slug": "hello-expo",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "package": "com.ru_461.helloexpo"
     },
     "assetBundlePatterns": ["**/*"],
+    "extra": {
+      "eas": {
+        "projectId": "64160eb3-20ca-48c7-b461-1f2e5fc5e80b"
+      }
+    },
+    "icon": "./assets/icon.png",
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+    "name": "Hello Expo",
+    "orientation": "portrait",
+    "slug": "hello-expo",
+    "splash": {
+      "backgroundColor": "#ffffff",
+      "image": "./assets/splash.png",
+      "resizeMode": "contain"
     },
+    "userInterfaceStyle": "light",
+    "version": "1.0.0",
     "web": {
       "favicon": "./assets/favicon.png"
     }
